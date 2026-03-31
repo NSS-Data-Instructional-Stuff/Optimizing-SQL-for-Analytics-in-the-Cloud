@@ -5,6 +5,8 @@ This set of exercises is designed to get you oriented to using the BigQuery plat
 Google has excellent documentation for BigQuery - you'll find an overview here and links to other sections of the documentation.
 https://cloud.google.com/bigquery/docs
 
+The dataset is bigquery-public-data.cms_synthetic_patient_data_omop. Click "Add data", then "Public Datasets", then search for "synthetic patient data in omop". Click on the dataset, then click the "view dataset" button which will open it up in your BigQuery sandbox project.
+
 -----------------------------------
 ### Question 1
 Calculate the total number of distinct providers who performed a procedure on a patient who has a documented diagnosis of Type 2 Diabetes Mellitus (condition_concept_id = 201826). Hint: a patient's condition is recorded in the condition_occurrence table, and any procedures those patients have received are documented in the procedure_occurrence table.
